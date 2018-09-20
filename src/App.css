@@ -1,0 +1,19 @@
+:root{
+  --main-color: #191919;
+  --font-color: #6d3041;
+}
+
+.App {
+}
+
+.App-header {
+  padding: 5px;
+  background-color: var(--main-color);
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: var(--font-color);
+}
+.nav-link:hover{
+  color: var(--font-color);
+}
