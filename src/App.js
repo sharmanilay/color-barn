@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import NavBar from './navbar/navbar';
+import MainForm from './form';
 import "./App.css";
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
         <header className="App-header">
           <NavBar />
         </header>
+        <MainForm />
       </div>
     );
   }

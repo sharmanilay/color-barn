@@ -32,7 +32,7 @@ class NavBar extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="m1-auto" navbar>
                 <NavItem>
-                  <NavLink href="#">Color Barn</NavLink>
+                  <NavLink href="#"><h2>Color Barn</h2></NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
