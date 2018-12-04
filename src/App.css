@@ -1,14 +1,18 @@
 :root{
-  --main-color: #191919;
-  --font-color: #6d3041;
+  --main-color: #550010;
+  --font-color: #EFF0ED;
+  --form-color: #a3333d;
 }
-
 .App {
   overflow-x: hidden;
 }
+.container-fluid{
+  padding: 0px;
+}
 
 .App-header {
-  background-color: var(--main-color);
+  background-image: url('http://cdn26.us1.fansshare.com/photo/mobilewallpaper/blue-beautiful-mobile-hd-background-wallpapers-black-abstract-wallpapers-beautiful-wallpaper-hd-android-for-walls-home-border-iphone-background-pattern-with-glitter-black-247867843.jpg');
+  background-size: cover;
   color: white;
 }
 .navbar-dark .navbar-nav .nav-link{
@@ -17,17 +21,87 @@
 .nav-link:hover{
   color: var(--font-color);
 }
-.imageForm{
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-
+.imagec{
+  background-image: url('https://chainimage.com/images/texture-shadow-black-and-white-wallpaper-background-full-hd-1080p.jpg');
+  background-size: cover;
   color: var(--font-color);
-  background-color: var(--main-color);
+  text-align: center;
+  padding-top: 20px;
+}
+.imageForm{
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 10px;
+  color: var(--form-color);
   padding: 50px;
+  padding-top: 10px;
 }
 .previewImage{
-  margin-top: 20px;
-  width: 750px;
-  height: 385px;
+  height: 580px;
+  width: 850px;
+}
+.row-1{
+  height: 620px;
+  padding-right: 0px;
+}
+.cola-1{
+  text-align: center;
+  padding: 20px;
+}
+.cola-2{
+  padding: 20px;
+  text-align: center;
+}
+.row-2{
+  height: 600px;
+  padding: 30px;
+  text-align: center;
+}
+.resultImage{
+  height: 540px;
+}
+.mainContent{
+  background-image: url('https://images.pexels.com/photos/1193743/pexels-photo-1193743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  color: var(--main-color);
+  padding: 100px;
+  height: 600px;
+}
+.res{
+  margin-top: 25%;
+}
+button{
+  margin-top:20px;
+  padding: 10px;
+  margin-right: 20px;
+}
+button#avatar{
+background-color: red;
+}
+.c2{
+  padding-top: 180px;
+}
+.otherContent{
+  margin-top: 100px;
+}
+hr {
+   display: block;
+   float: left;
+   width: 250px;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: 120px;
+   margin-right: auto;
+   border-style: inset;
+   border-width: 1px;
+}
+.ras{
+  display: block;
+  width: 250px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 120px;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
 }
